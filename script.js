@@ -1,19 +1,21 @@
 import React from 'react';
+import Background from './hoho.jpg';
 
 const styles = {
-    maxWidth: {
-        maxWidth: "6000px"
+    background: {
+        backgroundImage: 'Background'
     }
 }
 console.log("why are you here");
 
-class Background extends React.Component {
+class Section extends React.Component {
 
     render() {
         return (
             <div>
-                <img style={styles.maxWidth}
-                    src={"hoho.jpg"}/>
+                <section style = { styles}>
+                    
+                </section>
             </div>
         )
     }
