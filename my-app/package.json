@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
+    "homepage": "https://jacobyeung.github.io",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "^0.59.9",
@@ -11,6 +13,8 @@
     "react-scroll": "^1.7.12"
   },
   "scripts": {
+    "predeplot": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
